@@ -11,7 +11,7 @@ int main(int argc, char **argv){
 
 	printf("I am %d of %d\n", rank+1, size);
 
-	
+	MPI_Finalize();
 	return 0;
 }
 
